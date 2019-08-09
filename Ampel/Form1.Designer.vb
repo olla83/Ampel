@@ -42,7 +42,7 @@ Partial Class frmAmpel
         '
         Me.lblgelb.BackColor = System.Drawing.Color.Gray
         Me.lblgelb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblgelb.Location = New System.Drawing.Point(301, 130)
+        Me.lblgelb.Location = New System.Drawing.Point(301, 136)
         Me.lblgelb.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblgelb.Name = "lblgelb"
         Me.lblgelb.Size = New System.Drawing.Size(110, 64)
@@ -52,7 +52,7 @@ Partial Class frmAmpel
         '
         Me.lblGrün.BackColor = System.Drawing.Color.Gray
         Me.lblGrün.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblGrün.Location = New System.Drawing.Point(301, 263)
+        Me.lblGrün.Location = New System.Drawing.Point(301, 254)
         Me.lblGrün.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblGrün.Name = "lblGrün"
         Me.lblGrün.Size = New System.Drawing.Size(110, 64)
@@ -60,8 +60,8 @@ Partial Class frmAmpel
         '
         'btnWeiter
         '
-        Me.btnWeiter.Location = New System.Drawing.Point(301, 373)
-        Me.btnWeiter.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnWeiter.Location = New System.Drawing.Point(301, 372)
+        Me.btnWeiter.Margin = New System.Windows.Forms.Padding(4)
         Me.btnWeiter.Name = "btnWeiter"
         Me.btnWeiter.Size = New System.Drawing.Size(111, 64)
         Me.btnWeiter.TabIndex = 3

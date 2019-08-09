@@ -1,7 +1,7 @@
 ﻿Public Class frmAmpel
     Private Sub btnWeiter_Click(sender As Object, e As EventArgs) Handles btnWeiter.Click
-        btnWeiter.Text = "Weiter"
-        If btnWeiter.Text = "Weiter" Then
+        btnWeiter.Text = "Erik Sucks"
+        If btnWeiter.Text = "Erik Sucks" Then
             lblRot.BackColor = Color.Red
             Application.DoEvents()
             System.Threading.Thread.Sleep(1000)
@@ -14,7 +14,6 @@
 
         End If
         If lblgelb.BackColor = Color.Yellow Then
-
             lblGrün.BackColor = Color.Green
             Application.DoEvents()
             System.Threading.Thread.Sleep(1000)
